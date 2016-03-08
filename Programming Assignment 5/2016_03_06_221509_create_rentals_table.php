@@ -13,7 +13,7 @@ class CreateRentalsTable extends Migration
     public function up()
     {
         //
-         Schema::create('users',function(Blueprint $table)
+         Schema::create('rentals',function(Blueprint $table)
             {
                 $table->increments('id');
                 $table->string('from_id');
